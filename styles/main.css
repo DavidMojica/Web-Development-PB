@@ -1,0 +1,58 @@
+.mainScene {
+    width: 80%; 
+    max-width: 1000px; 
+    aspect-ratio: 4/2.2; 
+    margin: 0 auto;
+}
+
+.atropos-inner {
+    position: relative;
+    border-radius: 1rem;
+    background: linear-gradient(to left, #fef08a, #fef9c3, #60a5fa);
+    
+}
+
+.parallaxElement {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+   
+}
+
+.sceneBtn {
+    background: rgb(21 128 61);
+    color: #fff;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    transition-duration: 200ms;
+    display: inline-flex;
+}
+
+.sceneBtn:hover{
+    opacity: .7;
+    
+}
+
+@media (min-width: 640px) {
+    .toUpPart {
+        top: -1.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .toUpPart {
+        top: -3.5rem;
+    }
+}
+@media (min-width: 1024px) {
+    .toUpPart {
+        top: -4.5rem;
+    }
+}
+@media (min-width: 1280px) {
+    .toUpPart {
+        top: -5rem;
+    }
+}
