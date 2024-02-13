@@ -42,6 +42,40 @@
     left: -5%;
 }
 
+nav{
+    display: grid;
+    grid-template-columns: .3fr 1fr .3fr;
+    place-items: center;
+    border: 1px solid red;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fa-github{
+    font-size: 2.8rem;
+    color: purple;
+}
+
+.logo{
+    display: grid;
+    place-items: center;
+}
+
+.bg-grid {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+      linear-gradient(to bottom, #80808012 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
 @media (min-width: 640px) {
     .toUpPart {
         top: -1.5rem;
