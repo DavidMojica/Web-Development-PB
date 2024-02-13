@@ -36,6 +36,12 @@
     
 }
 
+.rocks{
+    width: 110%;
+    top: -8%;
+    left: -5%;
+}
+
 @media (min-width: 640px) {
     .toUpPart {
         top: -1.5rem;
