@@ -3,8 +3,7 @@ let nam = "Pancracio de la Santa Circuncinción";
 let confirmation = undefined;
 
 /*------Operador ternario------*/
-confirmation === "Pancracio" ? "Es el valor" : "No es el valor";
-console.log(confirmation);
+console.log(nam === "Pancracio" ? "Es el valor" : "No es el valor");
 
 /*-----------Constantes-----------*/
 const tonto = true;
@@ -24,8 +23,11 @@ const sum = (a, b) => {
 
 // Cuando es un solo parametro
 const saludar = userName =>{
-    
+    return `Hi! ${userName}`;
 }
+
+// Console logs
+console.log(typeof(sum(1+"a")));
 
 
 const dayScene = Atropos({
